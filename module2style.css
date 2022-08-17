@@ -1,0 +1,103 @@
+ * {
+    box-sizing: border-box;
+ }
+ html {
+    display: block;
+    background-color: rgb(98, 75, 121);
+ }
+ p {
+   margin: 10px; 
+   font-family: Arial, Helvetica;
+   padding: 40px 10px 5px 10px;
+   overflow: hidden;
+ }
+ p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+ }
+ h1 {
+    text-align: center;
+    margin: 15px;
+ }
+ #bold1 {
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    width: 90px;
+ }
+ #bold2 {
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    width: 90px;
+ }
+ #bold3 {
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    width: 90px;
+ }
+section {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#container {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+        border: 1px solid blue;
+        background-color: #a8eefd;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+@media (min-width:768px)and (max-width: 991px) {
+    .col-md-12 {
+        width: 100%;
+        float: left;
+        border: 1px solid blue;
+        background-color: #a8eefd;
+        margin: 10px;
+        padding: 10px;
+      }
+}
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        float: left;
+        border: 1px solid blue;
+        margin: 10px;
+        background-color: #a8eefd;
+        padding: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+        float: left;
+        border: 1px solid blue;
+        margin: 10px;
+        background-color: #a8eefd;
+        padding: 10px;
+    }
+}
